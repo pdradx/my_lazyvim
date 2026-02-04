@@ -19,4 +19,6 @@ vim.filetype.add({
   },
 })
 
+vim.o.fileencodings = vim.o.fileencodings .. ",gb2312"
+
 -- vim.g.root_spec = { "cwd" }
